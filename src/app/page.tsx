@@ -3,6 +3,7 @@
 import FeaturesSection from '@/components/sections/features-section';
 import HeroSection from '@/components/sections/hero-section';
 import HowItWorksSection from '@/components/sections/how-it-works-section';
+import PricingSection from '@/components/sections/pricing-section';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <FeaturesSection />
       <HowItWorksSection />
+      <PricingSection />
     </>
   );
 };
