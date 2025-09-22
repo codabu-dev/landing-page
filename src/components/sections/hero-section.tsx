@@ -74,7 +74,7 @@ const HeroSection = () => {
           className='w-full h-auto rounded-lg shadow-lg cursor-pointer'
           onClick={toggleVideo}
         >
-          <source src='/video.mp4' type='video/mp4' />
+          <source src='/videos/video.mp4' type='video/mp4' />
           Your browser does not support the video tag.
         </video>
 
