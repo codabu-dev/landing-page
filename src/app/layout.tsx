@@ -1,3 +1,4 @@
+import Navbar from '@/components/navbar';
 import type { Metadata } from 'next';
 import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${inter.className} ${poppins.variable} bg-[#f5f5f7] antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

@@ -1,13 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { links } from '../navbar';
 import { Button } from '../ui/button';
-
-const links = [
-  { name: 'Features', href: '#features' },
-  { name: 'How It Works', href: '#how-it-works' },
-  { name: 'Pricing', href: '#pricing' },
-  { name: 'FAQ', href: '#faq' }
-];
 
 const FooterSection = () => {
   return (

@@ -55,7 +55,7 @@ const FaqSection = () => {
   return (
     <section
       id='faq'
-      className='flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8 pb-10 sm:pb-16'
+      className='flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 lg:pt-24 pb-6 sm:py-9 lg:py-16'
     >
       <div className='flex flex-col w-full max-w-7xl text-left gap-2'>
         <h2 className='font-bold text-4xl md:text-6xl leading-tight tracking-tight'>

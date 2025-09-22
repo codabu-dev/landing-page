@@ -7,7 +7,7 @@ const HowItWorksSection = () => {
   return (
     <section
       id='how-it-works'
-      className='flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8 gap-6 sm:gap-8 lg:gap-12 pb-10 sm:pb-16 lg:pb-24'
+      className='flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8 gap-6 sm:gap-8 lg:gap-12 pt-10 sm:pt-16 lg:pt-24'
     >
       <div className='flex flex-col w-full max-w-7xl text-center sm:text-left gap-3 sm:gap-4'>
         <h2 className='font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight tracking-tight'>

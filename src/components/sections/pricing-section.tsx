@@ -16,7 +16,7 @@ const PricingSection = () => {
   return (
     <section
       id='pricing'
-      className='flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8 pb-10 sm:pb-16 lg:pb-24'
+      className='flex flex-col justify-center items-center w-full px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 lg:pt-24'
     >
       <div className='flex flex-col w-full max-w-7xl text-left gap-2'>
         <h2 className='font-bold text-4xl md:text-6xl leading-tight tracking-tight'>
