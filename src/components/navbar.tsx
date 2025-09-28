@@ -1,6 +1,7 @@
 'use client';
 
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
@@ -50,9 +51,15 @@ const Navbar = () => {
       <div className='max-w-7xl w-full grid grid-cols-2 lg:grid-cols-3 items-center px-4 sm:px-6 lg:px-8'>
         <Link
           href='/'
-          className='font-semibold text-white text-lg tracking-tighter hover:text-neutral-200 justify-self-start font-poppins'
+          className='flex items-center space-x-1.5 font-semibold text-white text-lg tracking-tight hover:text-neutral-200 justify-self-start font-poppins'
         >
-          codabu
+          <Image
+            src='/images/logo.png'
+            alt='Codabu Logo'
+            width={28}
+            height={28}
+          />
+          <span>codabu</span>
         </Link>
 
         <NavigationMenu className='justify-self-center hidden lg:flex'>

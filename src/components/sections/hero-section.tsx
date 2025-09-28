@@ -25,7 +25,7 @@ const HeroSection = () => {
   return (
     <section
       id='hero'
-      className='bg-black flex flex-col justify-center items-center w-full min-h-screen pt-20 sm:pt-28 md:pt-36 pb-6 sm:pb-8 md:pb-10 px-4 sm:px-6 lg:px-8 gap-6 md:gap-9'
+      className='bg-black flex flex-col justify-center items-center w-full pt-20 sm:pt-28 md:pt-36 pb-6 sm:pb-8 md:pb-10 px-4 sm:px-6 lg:px-8 gap-6 md:gap-9'
     >
       <div className='flex flex-col w-full max-w-2xl text-center gap-6 md:gap-9'>
         <div className='flex items-center flex-col gap-3 sm:gap-4'>
