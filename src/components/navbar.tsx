@@ -36,13 +36,13 @@ const Navbar = () => {
   const handleSectionClick = (href: string) => {
     closeMenu();
 
-    if (pathname === '/form') {
-      router.push(`/${href}`);
-    } else {
+    if (pathname === '/') {
       const element = document.querySelector(href);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
+    } else {
+      router.push(`/${href}`);
     }
   };
 
